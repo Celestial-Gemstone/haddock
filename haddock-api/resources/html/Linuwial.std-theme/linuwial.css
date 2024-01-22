@@ -47,7 +47,7 @@ dd {
 }
 
 a { text-decoration: none; }
-a[href]:link { color: #9E358F; }
+a[href]:link { color: /*#9E358F;*/ #B858AA; }
 a[href]:visited {color: #6F5F9C; }
 a[href]:hover { text-decoration:underline; }
 
@@ -261,6 +261,12 @@ table {
 
 pre, code, kbd, samp, tt, .src {
 	font-family:monospace;
+}
+
+.inline-code {
+    background-color: #e2e5e8;
+    border-radius: 3px;
+    padding: 2px 3px;
 }
 
 .links, .link {
